@@ -1,0 +1,191 @@
+[
+    {
+      "title": "Black",
+      "description": "Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.",
+      "ingredients": ["Coffee"],
+      "image": "https://blogstudio.s3.theshoppad.net/coffeeheroau/5b3d5ebf8a5442199dad3293c8ce8227.jpg",
+      "id": 1
+    },
+    {
+      "title": "Latte",
+      "description": "As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.",
+      "ingredients": ["Espresso", "Milk", "Foam"],
+      "image": "https://fullcoffeeroast.com/wp-content/uploads/2020/04/Are-Lattes-Supposed-to-Be-Warm-or-Hot-1-1-1.jpg",
+      "id": 2
+    },
+    {
+      "title": "Cappuccino",
+      "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.",
+      "ingredients": ["Espresso", "Milk"],
+      "image": "https://www.alisonspantry.com/uploads/new-products/1328-2.jpg",
+      "id": 3
+    },
+    {
+      "title": "Americano",
+      "description": "With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water.",
+      "ingredients": ["Espresso", "Water"],
+      "image": "https://cdn.buttercms.com/resize=width:750/AB7ud4YSE6nmOX0iGlgA",
+      "id": 4
+    },
+    {
+      "title": "Espresso",
+      "description": "An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.",
+      "ingredients": ["Espresso"],
+      "image": "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
+      "id": 5
+    },
+    {
+      "title": "Doppio",
+      "description": "A double shot of espresso, the doppio is perfect for putting extra pep in your step.",
+      "ingredients": ["Espresso"],
+      "image": "https://www.doppiocoffeehouse.com/uploads/1/2/7/1/127137217/s818321954983044400_p75_i3_w3600.jpeg?width=2560",
+      "id": 6
+    },
+    {
+      "title": "Cortado",
+      "description": "Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity.",
+      "ingredients": ["Espresso", "Milk"],
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2021/08/Cortado-004s.jpg",
+      "id": 7
+    },
+    {
+      "title": "Red Eye",
+      "description": "Named after those pesky midnight flights, a red eye can cure any tiresome morning. A full cup of hot coffee with an espresso shot mixed in, this will definitely get your heart racing.",
+      "ingredients": ["Coffee", "Espresso"],
+      "image": "https://www.starbucksathome.com/ca/sites/default/files/styles/recipe_ingredient/public/2021-03/Classic%20Red%20Eye_0.jpg?itok=XTJW7ESz",
+      "id": 8
+    },
+    {
+      "title": "Galão",
+      "description": "Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.",
+      "ingredients": ["Espresso", "Milk"],
+      "image": "https://traveldudes.com/wp-content/uploads/2021/06/A-Galao.jpg",
+      "id": 9
+    },
+    {
+      "title": "Lungo",
+      "description": "A lungo is a long-pull espresso. The longer the pull, the more caffeine there is and the more ounces you can enjoy.",
+      "ingredients": ["Espresso"],
+      "image": "https://cdn.shopify.com/s/files/1/2627/1860/articles/what-is-lungo-espresso-coffee.jpg?v=1593313291",
+      "id": 10
+    },
+    {
+      "title": "Macchiato",
+      "description": "The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.",
+      "ingredients": ["Espresso", "Foam"],
+      "image": "https://cdn.shopify.com/s/files/1/0022/1393/7252/articles/Caffe-Macchiato-Recipe_1024x1024.webp?v=1669904984",
+      "id": 11
+    },
+    {
+      "title": "Mocha",
+      "description": "For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.",
+      "ingredients": ["Espresso", "Milk", "Chocolate"],
+      "image": "https://www.wearetateandlylesugars.com/sites/wearetateandlylesugars_com/files/Choca_Mocha_Tile_500x400.jpg",
+      "id": 12
+    },
+    {
+      "title": "Ristretto",
+      "description": "Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.",
+      "ingredients": ["Espresso"],
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2021/09/Ristretto-001.jpg",
+      "id": 13
+    },
+    {
+      "title": "Flat White",
+      "description": "This Aussie-born drink is basically a cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.",
+      "ingredients": ["Espresso", "Milk"],
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-d8ada0f.jpg",
+      "id": 14
+    },
+    {
+      "title": "Affogato",
+      "description": "The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two.",
+      "ingredients": ["Espresso", "Ice cream"],
+      "image": "https://www.thespruceeats.com/thmb/5PcCBEaUd1U1eFxfcKKPLVnZzfA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/affogato-4776668-hero-08-40d7a68d12ba46f48eaea3c43aba715c.jpg",
+      "id": 15
+    },
+    {
+      "title": "Café au Lait",
+      "description": "Café au lait is perfect for the coffee minimalist who wants a bit more flavor. Just add a splash of warm milk to your coffee and you’re all set!",
+      "ingredients": ["Coffee", "Milk"],
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2021/08/Cafe-Au-Lait-004.jpg",
+      "id": 16
+    },
+    {
+      "title": "Irish",
+      "description": "Irish coffee consists of black coffee, whiskey and sugar, topped with whipped cream.",
+      "ingredients": ["Coffee", "Whiskey", "Sugar", "Cream"],
+      "image": "https://creative-culinary.com/wp-content/uploads/irish-coffee-2.jpg",
+      "id": 17
+    },
+    {
+      "title": "Guayoyo",
+      "description": "Traditional Venezuelan coffee prepared by filtering the ground coffee in a cone of cloth and pouring hot water on top of it. It's preferably drunk without milk or cream.",
+      "ingredients": ["Coffee", "Water"],
+      "image": "https://paquetiby.com/wp-content/uploads/2020/11/GUAYOYO.jpg",
+      "id": 18
+    },
+    {
+      "title": "Cortadito",
+      "description": "Traditional Cuban coffee method where a bit of freshly brewed coffee is mixed with sugar to create a highly sugared paste. Then add the rest of the coffee and stir, adding milk until a 50/50 ratio is achieved.",
+      "ingredients": ["Coffee", "Sugar", "Milk"],
+      "image": "https://uploads-ssl.webflow.com/6383ea225f097f707a659536/63dd1748468e67d8d610d83d_AdobeStock_148106686-min.jpeg",
+      "id": 19
+    },
+    {
+      "title": "Aguapanela Coffee",
+      "description": "Bring panela and coffee to a boil in a small pan for 30 minutes until panela is melted. Brew your coffee using your favorite brewing technique but add the hot aguapanela instead of hot water. Delicious sweetened coffee is ready.",
+      "ingredients": ["Coffee", "Sweetener", "Panela", "Traditional"],
+      "image": "https://www.rhubarbarians.com/wp-content/uploads/2015/03/colombian-coffee-recipe-featured.jpg",
+      "id": 20
+    },
+    {
+      "title": "Frappuccino",
+      "description": "Frappuccino is a line of blended iced coffee drinks sold by Starbucks. It may consist of coffee or crème base, blended with ice and ingredients such as flavored syrups, milk, and whipped cream.",
+      "ingredients": ["Coffee", "Ice", "Milk", "Sweetener", "Whipped Cream"],
+      "image": "https://addapinch.com/wp-content/uploads/2012/10/Homemade-Frappuccino-DSC_0560-2-500x500.jpg",
+      "id": 21
+    },
+    {
+      "title": "Turkish Coffee",
+      "description": "Turkish coffee is a method of preparing unfiltered coffee. The coffee is ground into a fine powder, mixed with water, and boiled to create a frothy coffee drink.",
+      "ingredients": ["Coffee", "Water"],
+      "image": "https://www.thebossykitchen.com/wp-content/uploads/2018/02/Turkish-Coffee-square-picture0.jpg",
+      "id": 22
+    },
+    {
+      "title": "Iced Coffee",
+      "description": "A coffee with ice, typically served with a dash of milk, cream or sweetener—iced coffee is really as simple as that.",
+      "ingredients": ["Coffee", "Ice", "Sugar", "Cream*"],
+      "image": "https://withsaltandwit.com/wp-content/uploads/2014/03/Perfect-Homemade-Iced-Coffee-Cold-Brew-2.jpg",
+      "id": 23
+    },
+    {
+      "title": "Iced Espresso",
+      "description": "Like an iced coffee, iced espresso can be served straight or with a dash of milk, cream or sweetener. You can also ice speciality espresso-based drinks like americanos, mochas, macchiatos, lattes and flat whites.",
+      "ingredients": ["Espresso", "Ice", "Sugar", "Cream"],
+      "image": "https://madaboutfood.co/wp-content/uploads/2021/08/Iced-Shaken-Espresso-19.jpg",
+      "id": 24
+    },
+    {
+      "title": "Cold Brew",
+      "description": "The trendiest of the iced coffee bunch, cold brew coffees are made by steeping coffee beans from anywhere between 6-36 hours, depending on how strong you would like your cold brew. Once the beans are done steeping, add cold milk or cream.",
+      "ingredients": ["Coffee", "Ice"],
+      "image": "https://www.thedinnerbite.com/wp-content/uploads/2021/07/cold-brew-img-4.jpg",
+      "id": 25
+    },
+    {
+      "title": "Nitro",
+      "description": "A cold brew + nitrogen bubbles = a cold brew coffee with a frothy, Guinness-like consistency. (It’s poured via a nitro tap, too.)",
+      "ingredients": ["Coffee", "Nitrogen bubbles", "Sugar", "Cream"],
+      "image": "https://hungerthirstplay.com/wp-content/uploads/2021/06/Nitro-Cold-Brew-3-scaled.jpg",
+      "id": 26
+    },
+    {
+      "title": "Mazagran",
+      "description": "Mazagran coffee is a cross between iced coffee, tea and your favorite rum drink. It typically consists of espresso, lemon, sugar and (sometimes) rum.",
+      "ingredients": ["Coffee", "Sugar", "Lemon", "Rum"],
+      "image": "https://coffeeaffection.com/wp-content/uploads/2021/01/mazagran-lemon-coffee-recipe.jpg",
+      "id": 27
+    }
+  ]

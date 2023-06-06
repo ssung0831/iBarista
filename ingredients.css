@@ -1,0 +1,82 @@
+body {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6F4E37;
+  }
+  
+  .container {
+    background-color: #EADDCA;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    height: 70%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6F4E37;
+    font-weight: normal;
+    font-size: 50px;
+  }
+
+
+  h2{
+    text-align: center;
+    color: #6F4E37;
+    font-weight: normal;
+    font-size: 28px;
+    margin: 0 100px;
+    margin-bottom: 80px;
+  }
+
+    #GSbutton {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    background-color: #6F4E37;
+    color: #EADDCA;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    #GSbutton:hover {
+    background-color: #D2B48C;
+    }
+
+    #GSbutton:focus {
+    outline: none;
+    }
+
+    .coffee-image {
+        position: absolute;
+        top: 3%;
+        right: 2%;
+        width: 80px;
+        height: 80px;
+        background-image: url('images/coffee-home.png');
+        background-size: cover;
+      }
+
+      
+      #ingredientsList {
+        margin-top: 4%;
+        list-style-type: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        margin-bottom: 2%;
+      }
+      
+      #ingredientsList li {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #6F4E37;
+      }
