@@ -12,3 +12,5 @@ For the back-end, I integrated the Coffee REST API (https://sampleapis.com/api-l
 
 ## Try It Out
 Download this repository and start exploring. This web app is compatible with various platforms, so you can access the recipes anytime, anywhere. Happy Brewing!
+
+Example Video: https://drive.google.com/file/d/18_az6Q9oEZd7rbGawUyB--5PZdOS7TtH/view?usp=sharing
