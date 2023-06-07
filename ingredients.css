@@ -49,6 +49,7 @@ body {
 
     #GSbutton:hover {
     background-color: #D2B48C;
+    transform: scale(1.1);
     }
 
     #GSbutton:focus {
