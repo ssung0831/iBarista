@@ -2,7 +2,7 @@
 
 ## What it Does
 Discover a world of delicious coffee creations and save money by brewing your own beverages at home! 
-Simply tell me the ingredients you have in your kitchen, and my web app will provide you with fantastic recipes for lattes, frappuccinos, mochas, and more from 25+ recipes. 
+Simply tell me the ingredients you have in your kitchen, and my web app will provide you with fantastic recipes for lattes, frappuccinos, mochas, and more from a multitude of recipes. 
 Unleash your inner barista and explore a wide range of delightful coffee concoctions right at your fingertips.
 
 ## How I Built It
