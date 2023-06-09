@@ -8,9 +8,9 @@ Unleash your inner barista and explore a wide range of delightful coffee concoct
 ## How I Built It
 I developed this web app by leveraging a stack of both front-end and back-end technologies. 
 On the front-end, I utilized HTML, CSS, and JavaScript to create an engaging and visually appealing user interface. HTML was used to structure the content, CSS was employed for styling and layout design, and JavaScript handled the app's logic and functionality.
-For the back-end, I integrated the Coffee REST API (https://sampleapis.com/api-list/coffee) to retrieve data and generate tasty recipes based on user input. 
+For the back-end, I integrated the Coffee REST API (https://sampleapis.com/api-list/coffee) to retrieve data and generate tasty recipes based on user input. By leveraging Cookies and Local Storage, I had the ability to store and retrieve user data seamlessly.
 
 ## Try It Out
 Download this repository and start exploring. This web app is compatible with various platforms, so you can access the recipes anytime, anywhere. Happy Brewing!
 
-Example Video: https://drive.google.com/file/d/18_az6Q9oEZd7rbGawUyB--5PZdOS7TtH/view?usp=sharing
+Demonstration Video: https://drive.google.com/file/d/1zP_1OhgKixbQ8WnuHFP4M3yyu5DXG16W/view?usp=sharing
