@@ -102,3 +102,16 @@ body {
       input[type="checkbox"]:checked + label::before {
         background-color: #D2B48C;
       }
+
+      .loading-screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #D2B48C;
+        z-index: 9999;
+      }
+
+      .coffee-image:hover {
+        transform: scale(1.2);
+      }

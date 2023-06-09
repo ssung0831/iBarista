@@ -33,6 +33,10 @@ function redirectToRecipes() {
 
     if(matchingCoffeeIds.length == 0){
       alert("There are no recipes found! Please try again.");
+
+      for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].checked = false;
+      }
     }
     else{
     const queryString = `coffees=${matchingCoffeeIds.join(',')}`;

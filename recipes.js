@@ -33,6 +33,10 @@ fetch('coffeeData.json')
         contentContainer.classList.add('content-container');
         const h2 = document.createElement('h2');
         h2.textContent = coffee.title;
+        const starIcon = document.createElement('span');
+        starIcon.classList.add('favorite-icon');
+        starIcon.innerHTML = '<i class="fas fa-star"></i>';
+        h2.appendChild(starIcon);
         const h3 = document.createElement('h3');
         h3.textContent = coffee.description;
         const h4 = document.createElement('h4');
@@ -49,9 +53,97 @@ fetch('coffeeData.json')
 
         // Append the container to the location in the document
         coffeeContainer.appendChild(container);
-      }
-    });
-  })
+
+                // Add event listener to the star icon
+                starIcon.addEventListener('click', () => {
+                  // Toggle the favorite status
+                  const isFavorite = starIcon.classList.toggle('favorite');
+        
+                  // Add/remove coffee from local storage
+                  if (isFavorite) {
+                    addToFavorites(coffee.id);
+                  } else {
+                    removeFromFavorites(coffee.id);
+                  }
+                });
+        
+                // Check if the coffee is already in favorites and update the star icon accordingly
+                if (isCoffeeInFavorites(coffee.id)) {
+                  starIcon.classList.add('favorite');
+                }
+              }
+            });
+          })
   .catch(error => {
     console.error('Error:', error);
   });
+
+  // Hide the loading screen and show recipes page after a delay
+  window.addEventListener('load', function() {
+    var loadingScreen = document.querySelector('.loading-screen');
+    var recipesPage = document.getElementById('recipesPage');
+
+    setTimeout(function() {
+      loadingScreen.style.display = 'none';
+      recipesPage.style.display = 'block';
+    }, 2000); 
+  });
+
+  // Function to add a coffee to favorites in local storage
+function addToFavorites(coffeeId) {
+  const favorites = getFavorites();
+  favorites.push(coffeeId);
+  saveFavorites(favorites);
+  console.log("added");
+  alert("added to favorites!");
+}
+
+// Function to remove a coffee from favorites in local storage
+function removeFromFavorites(coffeeId) {
+  const favorites = getFavorites();
+  const index = favorites.indexOf(coffeeId);
+  if (index !== -1) {
+    favorites.splice(index, 1);
+    saveFavorites(favorites);
+    console.log("removed");
+    alert("removed from favorites!");
+  }
+
+}
+
+// Function to check if a coffee is in favorites
+function isCoffeeInFavorites(coffeeId) {
+  const favorites = getFavorites();
+  return favorites.includes(coffeeId);
+}
+
+// Function to get the favorites from local storage
+function getFavorites() {
+  const favorites = localStorage.getItem('favorites');
+  return favorites ? JSON.parse(favorites) : [];
+}
+
+// Function to save the favorites to local storage
+function saveFavorites(favorites) {
+  localStorage.setItem('favorites', JSON.stringify(favorites));
+  console.log(favorites);
+}
+
+
+// Function to update the star icons on the Favorites page
+function updateFavoriteIcons() {
+  const starIcons = document.getElementsByClassName('favorite-icon');
+
+  // Loop through each star icon
+  Array.from(starIcons).forEach((starIcon) => {
+    const coffeeId = starIcon.getAttribute('data-coffee-id');
+
+    // Check if the coffee is in favorites and update the star icon accordingly
+    if (isCoffeeInFavorites(coffeeId)) {
+      starIcon.classList.add('favorite');
+    } else {
+      starIcon.classList.remove('favorite');
+    }
+  });
+}
+

@@ -1,81 +1,144 @@
 body {
-    font-family: "Playfair Display", "Times New Roman", serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #D2B48C;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #D2B48C;
+}
+
+.container {
+  background-color: #EADDCA;
+  border-radius: 10px;
+  padding: 20px;
+  width: 65%;
+  height: 60%;
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  flex-direction: column; /* Add this line to stack the buttons vertically */
+}
+
+h1 {
+  text-align: center;
+  color: #6F4E37;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #6F4E37;
+  font-weight: normal;
+  font-size: 28px;
+  margin: 0 100px;
+  margin-bottom: 30px;
+}
+
+#GSbutton {
+  display: block;
+  margin-bottom: 10px; /* Add this line to add some spacing between the buttons */
+  padding: 20px 40px;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  background-color: #6F4E37;
+  color: #EADDCA;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 240px;
+}
+
+#GSbutton:hover {
+  background-color: #D2B48C;
+  transform: scale(1.1);
+}
+
+#GSbutton:focus {
+  outline: none;
+}
+
+#Fbutton {
+  display: block;
+  padding: 20px 40px;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  background-color: #6F4E37;
+  color: #EADDCA;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 240px;
+}
+
+#Fbutton:hover {
+  background-color: #D2B48C;
+  transform: scale(1.1);
+}
+
+#Fbutton:focus {
+  outline: none;
+}
+
+.coffee-image {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 300px;
+  height: 275px;
+  background-image: url('images/coffee.png');
+  background-size: cover;
+}
+
+.bean-image {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 200px;
+  height: 200px;
+  background-image: url('images/coffee-beans.png');
+  background-size: cover;
+}
+
+.coffee-image {
+  animation: jump 2s ease infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
   }
   
-  .container {
-    background-color: #EADDCA;
-    border-radius: 10px;
-    padding: 20px;
-    width: 65%;
-    height: 60%;
+}
+
+.bean-image {
+  animation: shake 0.5s ease infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
   }
-  
-  h1 {
-    text-align: center;
-    color: #6F4E37;
-    font-weight: normal;
-    font-size: 50px;
+  25% {
+    transform: translateX(-5px);
   }
-  
-
-  h2{
-    text-align: center;
-    color: #6F4E37;
-    font-weight: normal;
-    font-size: 25px;
-    margin: 0 100px;
-    margin-bottom: 80px;
+  50% {
+    transform: translateX(5px);
   }
-
-    #GSbutton {
-    display: block;
-    margin: 0 auto;
-    padding: 20px 40px;
-    font-size: 25px;
-    font-family: "Playfair Display", serif;
-    background-color: #6F4E37;
-    color: #EADDCA;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    }
-
-    #GSbutton:hover {
-    background-color: #D2B48C;
-    transform: scale(1.1);
-    }
-
-    #GSbutton:focus {
-    outline: none;
-    }
-
-    .coffee-image {
-        position: absolute;
-        bottom: 10%;
-        left: 10%;
-        width: 300px;
-        height: 275px;
-        background-image: url('images/coffee.png');
-        background-size: cover;
-      }
-
-      .bean-image {
-        position: absolute;
-        top: 10%;
-        right: 10%;
-        width: 200px;
-        height: 200px;
-        background-image: url('images/coffee-beans.png');
-        background-size: cover;
-      }
-      
-      
-      
-      
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -4,11 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #D2B48C;
+    background-color: #6F4E37;
   }
   
   .container {
-    background-color: #6F4E37;
+    background-color: #D2B48C;
     border-radius: 10px;
     padding: 20px;
     width: 70%;
@@ -21,7 +21,7 @@ body {
   
   h1 {
     text-align: center;
-    color: #6F4E37;
+    color: #EADDCA;
     font-weight: normal;
     font-size: 40px;
     margin: 0 auto; 
@@ -33,7 +33,7 @@ body {
 
   h2{
     text-align: center;
-    color: #EADDCA;
+    color: #6F4E37;
     font-weight: normal;
     font-size: 25px;
     margin: 0 100px;
@@ -53,8 +53,8 @@ body {
 
   .recipe-book {
     position: absolute;
-    top: 3%;
-    left: 2%;
+    top: 18%;
+    right: 2%;
     width: 80px;
     height: 80px;
     background-image: url('book.png');
@@ -66,7 +66,7 @@ body {
   }
 
   .container {
-    background-color: #6F4E37;
+    background-color: #D2B48C;
     border-radius: 10px;
     padding: 20px;
     width: 70%;
@@ -91,7 +91,7 @@ body {
   
   h2 {
     text-align: center;
-    color: #EADDCA;
+    color: #6F4E37;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@ body {
   }
   
   h3 {
-    color: #EADDCA;
+    color: #6F4E37;
     margin-bottom: 18px;
     text-align: center;
     font-weight: normal;
@@ -107,48 +107,13 @@ body {
   }
   
   h4 {
-    color: #EADDCA;
+    color: #6F4E37;
     text-align: center;
     font-weight: normal;
     font-size: 22px;
     margin-bottom: 20px;
   }
 
-  .loading-screen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #D2B48C;
-  }
-  
-  .loader {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #6F4E37;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-    margin-bottom: 40px;
-  }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  /* Hide recipes page and contents initially */
-  #recipesPage {
-    display: none;
-  }
-
-  h5{
-    color: #6F4E37;
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 5px;
-  }
 
   .coffee-image:hover {
     transform: scale(1.2);
@@ -160,25 +125,5 @@ body {
   }
   
   .favorite-icon.favorite {
-    color: #D2B48C;
-  }
-
-  .favorites-button {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    padding: 10px 10px;
-    background-color: #6F4E37;
-    color: #EADDCA;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-  }
-  
-  .favorites-button:hover {
-    background-color: #EADDCA;
-  }
-
-  #space{
-    color: #D2B48C;
+    color: #6F4E37;
   }
